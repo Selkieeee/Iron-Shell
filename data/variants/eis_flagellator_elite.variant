@@ -1,0 +1,43 @@
+{
+  "variantId": "eis_flagellator_elite",
+  "hullId": "eis_flagellator",
+  "displayName": "Elite",
+  "goalVariant": false,
+  "fluxCapacitors": 9,
+  "fluxVents": 16,
+  "quality": 1,
+  "permaMods": [
+    "eis_aquila"
+  ],
+  "hullMods": [
+    "eis_aquila"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavymauler",
+        "WS0002": "heavymauler",
+        "WS0003": "heavymg",
+        "WS0004": "heavymg",
+        "WS0008": "lightmg",
+        "WS0009": "eis_celestials_aster"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "eis_kopis_wing"
+  ]
+}

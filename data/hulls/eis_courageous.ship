@@ -1,0 +1,190 @@
+{
+  "hullName": "Courageous (XIV)",
+  "hullId": "eis_courageous",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/eis_courageous.png",
+  "style": "LOW_TECH",
+  "coversColor": "200,200,200,255",
+  "height": 108,
+  "width": 168,
+  "center": [84, 54],
+  "collisionRadius": 91.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 88.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "fourteenth"
+  ],
+  "builtInWings": [
+    "eis_gunblade_wing"
+  ],
+  "builtInWeapons": {
+    "WS0004": "eis_deco_courageous_front",
+    "WS0007": "eis_emthrust_s",
+    "WS0008": "eis_emthrust_s"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS 005",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 147,
+      "locations": [-14.5, -42.5]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 7,
+      "angle": 0,
+      "locations": [30, 30]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 7,
+      "angle": -0,
+      "locations": [30, -30]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": 0,
+      "locations": [36, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [30, -0],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 161.5,
+      "locations": [-26, 32]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -161.5,
+      "locations": [-26, -32]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-48, -0],
+      "length": 57,
+      "width": 21,
+      "angle": 180,
+      "contrailSize": 21,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-29.5, 65.5],
+      "length": 40.336689,
+      "width": 11.567452,
+      "angle": 157.5,
+      "contrailSize": 11.567452,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-29.5, -65.5],
+      "length": 40.336689,
+      "width": 11.567452,
+      "angle": -157.5,
+      "contrailSize": 11.567452,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-36.5, 55.5],
+      "length": 40.336689,
+      "width": 11.567452,
+      "angle": 157.5,
+      "contrailSize": 11.567452,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-36.5, -55.5],
+      "length": 40.336689,
+      "width": 11.567452,
+      "angle": -157.5,
+      "contrailSize": 11.567452,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-41.5, 18.5],
+      "length": 46.6898,
+      "width": 18.172785,
+      "angle": 172,
+      "contrailSize": 18.172785,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-41.5, -18.5],
+      "length": 46.6898,
+      "width": 18.172785,
+      "angle": -172,
+      "contrailSize": 18.172785,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-26.5, 32],
+      "length": 40.336689,
+      "width": 11.567452,
+      "angle": 157.5,
+      "contrailSize": 11.567452,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-26.5, -32],
+      "length": 40.336689,
+      "width": 11.567452,
+      "angle": -157.5,
+      "contrailSize": 11.567452,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    46.5, -21,
+    23, -29.5,
+    21, -42.5,
+    -12.5, -79,
+    -15.5, -62,
+    -28.5, -68,
+    -40.5, -51.5,
+    -52, -50.5,
+    -25, -35.5,
+    -41, -11.5,
+    -50.5, -8,
+    -50.5, 8,
+    -41, 11.5,
+    -25, 35.5,
+    -52, 50.5,
+    -40.5, 51.5,
+    -28.5, 68,
+    -15.5, 62,
+    -12.5, 79,
+    21, 42.5,
+    23, 29.5,
+    46.5, 21
+  ]
+}

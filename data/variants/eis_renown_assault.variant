@@ -1,0 +1,47 @@
+{
+  "variantId": "eis_renown_assault",
+  "hullId": "eis_renown",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 22,
+  "fluxVents": 23,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "autorepair",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "autopulse",
+        "WS0002": "harpoonpod",
+        "WS0003": "harpoonpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 008": "eis_superheavy_needler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 006": "heavyburst",
+        "WS 007": "heavyburst"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

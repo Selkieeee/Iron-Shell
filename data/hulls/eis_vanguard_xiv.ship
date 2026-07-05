@@ -1,0 +1,144 @@
+{
+  "hullName": "Vanguard (XIV)",
+  "hullId": "eis_vanguard_xiv",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/eis_vanguard_xiv.png",
+  "style": "LOW_TECH",
+  "height": 107,
+  "width": 112,
+  "center": [57, 51],
+  "collisionRadius": 75,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 73,
+  "viewOffset": 0,
+  "builtInMods": [
+    "fourteenth",
+	"armoredweapons",
+    "rugged"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 000",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [24, 41]
+    },
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [47, 1]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [24, -39]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 235,
+      "angle": 100,
+      "locations": [5, 38]
+    },
+    {
+      "id": "WS 004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 235,
+      "angle": 260,
+      "locations": [5, -36]
+    },
+    {
+      "id": "WS 005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 25,
+      "locations": [31, 22]
+    },
+    {
+      "id": "WS 006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": -25,
+      "locations": [31, -20]
+    },
+    {
+      "id": "WS 007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 110,
+      "angle": 0,
+      "locations": [26, 1]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-44, 9],
+      "length": 64,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-44, -7],
+      "length": 64,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-43, 22],
+      "length": 48,
+      "width": 12,
+      "angle": 171,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-43, -22],
+      "length": 48,
+      "width": 12,
+      "angle": -171,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    51.5, -39,
+    38.5, -38.5,
+    9, -56,
+    -25, -41,
+    -43, -45,
+    -50, -38.5,
+    -44, -32,
+    -44, 32,
+    -50, 38.5,
+    -43, 45,
+    -25, 41,
+    9, 56,
+    38.5, 38.5,
+    51.5, 39,
+    56, 1
+  ]
+}
