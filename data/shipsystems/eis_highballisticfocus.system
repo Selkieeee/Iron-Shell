@@ -28,10 +28,5 @@
 	
 	"outOfUsesSound":"gun_out_of_ammo",
 	"loopSound":"system_high_energy_focus_loop",	
-
-    "aiHints":{
-		"activeSpeedIncrease":20,
-		"burstMovementPotential":0,
-		"averageSpeedIncrease":20,
     }
 }
