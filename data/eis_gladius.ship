@@ -1,0 +1,67 @@
+{
+  "hullName": "Gladius (XIV)",
+  "hullId": "eis_gladius",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/eis_gladius.png",
+  "style": "MIDLINE",
+  "height": 46,
+  "width": 64,
+  "center": [32, 22],
+  "collisionRadius": 34,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 32,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 14,
+      "angle": 0,
+      "locations": [9.5, 10.5]
+    },
+    {
+      "id": "WS 002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 15,
+      "angle": 0,
+      "locations": [9.5, -10.5]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 50,
+      "angle": 0,
+      "locations": [17, 4.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-14, 9],
+      "length": 32,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-14, -9],
+      "length": 32,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    12, 0,
+    1, 30,
+    -16, 0,
+    1, -30
+  ]
+}
